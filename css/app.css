@@ -1,0 +1,423 @@
+/* *********************************** Element Styling *********************************** */
+
+html {
+    /* background-color: #010326; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    
+}
+
+body {
+    background-image: url(../images/background.svg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: acumin-pro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+ul {
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+ul a {
+    justify-content: space-around;
+    text-decoration: none;
+    color: #010326;
+}
+
+ul a:hover {
+    font-weight: 500;
+}
+
+hr {
+    display: block;
+    border: 1px solid #010326;
+    width: 40rem;
+}
+input{
+    margin: 0px;
+}
+/* *********************************** Class Styling *********************************** */
+
+.menu a,
+.menu .button {
+    padding: 0px;
+}
+
+.screenshot {
+    width: 250px;
+    box-shadow: -5px -5px #010326;
+    margin: 15px;
+}
+
+.social {
+    height: 1.5rem;
+    float: right;
+    margin-right: 15px;
+    align-items: center;
+    align-self: center;
+}
+
+.movie {
+    margin: 8px;
+}
+
+.movieBorder {
+    border: 2px #010326 solid;
+}
+.splashMovie>h4{
+    opacity: 0;
+}
+/* .splashMovie:hover{
+    opacity: 1;
+} */
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.people {
+    margin: 8px;
+}
+
+.peopleBorder {
+    border: 2px #010326 solid;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-family: interstate, sans-serif;
+
+    font-weight: 500;
+
+    font-style: normal;
+
+
+    margin: 10px 0 10px 20px;
+    text-align: center;
+}
+
+.search_container {
+    overflow: auto;
+    border: 1px #010326 solid;
+    padding: 3px;
+    width: 21.5rem;
+}
+
+.search_container:hover {
+    cursor: pointer;
+}
+
+.search_results {
+    z-index: 10000;
+    width: 22.5rem;
+    position: absolute;
+    background-color: #ffffff;
+    overflow: auto;
+    margin-top: -16px;
+}
+
+.left {
+    width: 25%;
+    float: left;
+    border: none;
+}
+
+.right {
+    width: 70%;
+    float: right;
+    font-family: interstate, sans-serif;
+
+    font-weight: 500;
+
+    font-style: normal;
+
+
+}
+
+.left>img {
+    width: 100%;
+}
+
+.more-top {
+    margin-top: 2.0rem;
+}
+/* .name{
+    opacity: 0;
+}
+.name:hover{
+    opacity: 1;
+} */
+/* *********************************** ID Styling *********************************** */
+#Nav {
+    background-color: #cccdd4;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    float: right;
+    width: 35rem;
+    /* width: 100%; */
+}
+
+#newMovie {
+    display: flex;
+    flex-direction: row;
+}
+
+#second {
+    flex-direction: column;
+}
+
+#third {
+    flex-direction: column;
+}
+
+#Logo {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+#LogoSplash {
+    width: 300px;
+    padding: 20px;
+}
+
+#search {
+    border: 1px solid #010326;
+    /* margin-bottom: 25px; */
+    text-align: end;
+    width: 94%;
+    /* margin-left: 3.5rem */
+    margin: 3rem 2rem 0 3.5rem
+}
+
+#search img {
+    height: 15px;
+    margin: 0 10px 0 10px;
+}
+
+#Photo {
+    height: 300px;
+    width: 200px;
+    box-shadow: -10px -10px #010326;
+    margin-right: 20px;
+}
+
+#Name {
+    font-family: interstate, sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.description {
+    height: 330px;
+    padding: 15px;
+    overflow: auto;
+}
+
+#Images {
+    font-family: interstate, sans-serif;
+
+    font-style: normal;
+
+
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#Featuring {
+    font-family: interstate, sans-serif;
+    font-style: normal;
+
+
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#Footer {
+    background-color: #000;
+    height: 2.5rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 10% 5px 10%;
+    margin-top: 25px;
+    width: 100vw;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#Footer img{
+    height: 20px;
+}
+.bump{
+    padding: 40px;
+    border-radius: 0px;
+background: #ffffff;
+box-shadow:  19px 19px 54px #ebebeb, 
+             -19px -19px 54px #ffffff;
+}
+#searchSection{
+    align-items: flex-end;
+}
+/* #featuredCast, #featuredMovies, #splashMovie, #splashActor{
+    justify-content: center;
+    align-content: center;
+} */
+#header{
+    justify-content: space-between;
+}
+#popLine{
+    width: 180px;
+    margin-top: 70px;
+}
+#pop{
+    text-align: center;
+}
+/* *********************************** Foundation Styling *********************************** */
+.grid-container {
+    width: 95%;
+    padding: 20px 0 0 0;
+}
+
+.grid-padding-y>.cell {
+    padding: 0;
+}
+
+.card {
+    margin-bottom: 0;
+}
+
+
+/* *********************************** Slick Styling *********************************** */
+
+.slick-dots {
+    margin-bottom: 2.0rem;
+}
+
+.slick-dots li button::before {
+    color: white;
+    opacity: 0.5;
+    font-size: 0.6rem;
+    content: "n";
+    font-family: "Wingdings";
+}
+
+.slick-dots li:hover button::before {
+    color: yellow;
+}
+
+.slick-prev {
+    left: 0.75rem;
+}
+
+.slick-next {
+    right: 0.75rem;
+}
+
+.clearFloat {
+    float: none;
+    clear: both;
+}
+
+.related_movies {
+    display: flex;
+    flex-direction: row;
+}
+
+/* *********************************** Responsive Styling *********************************** */
+@media print,
+screen and (max-width: 600px) {
+
+    /* @media print, screen and (max-width: 1020px) { */
+    .grid-container {
+        width: 100%;
+    }
+
+    #Nav {
+        background-color: #cccdd4;
+        justify-content: space-evenly;
+        height: 7rem;
+        /* float: right; */
+        width: 10rem;
+    }
+
+    #LogoSplash,
+    #Logo {
+        margin-top: 20px;
+    }
+
+    #Name,
+    #Date {
+        margin-left: 10px;
+    }
+
+    #Photo {
+        box-shadow: -10px -10px #010326;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .grid-margin-x{
+        margin: 0;
+    }
+    #LogoSplash{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media print,
+screen and (max-width: 800px) {
+    #header{
+        justify-content: center;
+    }
+    #search{
+        margin: 0;
+        align-self: center;
+        width: 100%;
+    }
+    
+}

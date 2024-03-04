@@ -1,0 +1,66 @@
+html{
+    background-color: #010326;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* flex-direction: row; */
+
+}
+body{
+    background-color: #ffffff;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    padding: 20px;
+}
+#Logo {
+    background-color: lightsalmon;
+    height: 20vh
+}
+#Search{
+    background-color: orangered;
+}
+#Nav{
+    background-color: darkorange;
+}
+#Movie{
+    background-color: peachpuff;
+}
+#Movie1{
+    background-color: indianred;
+}
+#Movie2{
+    background-color: lightcoral;
+}
+#Movie3{
+    background-color: indianred;
+}
+#Movie4{
+    background-color: lightcoral;
+}
+#Movie5{
+    background-color: indianred
+}
+#Actor{
+    background-color: peachpuff;
+}
+#Actor1{
+    background-color: indianred;
+}
+#Actor2{
+    background-color: lightcoral;
+}
+#Actor3{
+    background-color: indianred;
+}
+#Actor4{
+    background-color: lightcoral;
+}
+#Actor5{
+    background-color: indianred;
+}
+#Footer{
+    background-color: orangered;
+    height: 5vh
+}

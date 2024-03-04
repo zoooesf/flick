@@ -1,0 +1,159 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flick | Movie Database</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/fhm3rbo.css">
+
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x grid-padding-y gray-3" id="header">
+
+                <!-- **************** Logo **************** -->
+                <div class="large-2 cell gray-4 splash link" id="LogoSplash">
+                    <img src="images/logo.png" alt="Flick Logo">
+                </div>
+
+                <!-- **************** Search Bar **************** -->
+                <div class="large-8 cell gray-4 height-1" id="searchSection">
+                    <input type="text" id="search" placeholder="Search Actors, Directors, Movies etc.">
+                    <div class="search_results hide_all">
+                        <div class="search_container clearFloat">
+                            <div class="left">
+                                <img src="" alt="Info">
+                            </div>
+                            <div class="right">Label</div>
+                        </div>
+                        <div class="search_container clearFloat">
+                            <div class="left">
+                                <img src="" alt="Info">
+                            </div>
+                            <div class="right">Label</div>
+                        </div>
+                        <div class="search_container clearFloat">
+                            <div class="left">
+                                <img src="" alt="Info">
+                            </div>
+                            <div class="right">Label</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- **************** Splash Movie Page **************** -->
+    <div class="grid-container splash_container hide_all">
+        <h3>Featured Movies</h3>
+        <div class="grid-x grid-margin-x grid-padding-y splash_content">
+        </div>
+    </div>
+
+    <!-- **************** Movie Page **************** -->
+    <div class="grid-container movie_container hide_all">
+        <div class="grid-x grid-margin-x grid-padding-y" >
+
+            <div class="large-6 medium-6 small-12 cell more-top">
+                <div>
+                    <img src="rectangle-1.jpg" alt="Movie 1" class="main_movie_image height-2">
+                    <div class="card-section">
+                    </div>
+                </div>
+            </div>
+
+            <div class="large-6 medium-6 small-12 cell more-top">
+                <div class="bump">
+                    <h1 class="movie_name">Movie Name</h1>
+                    <p><b>Length: </b><span class="length">2:12</span></p>
+                    <p><b>Release: </b><span class="release_date" id="Date">Jan 12, 2018</span></p>
+                    <p id="Description" class="description"></p>
+                </div>
+            </div>
+        </div>
+        <div id="pop">
+        <img src="images/popLine.svg" alt="three pieces of cartoon popcorn in a line" id="popLine">
+    </div>
+        <h3>Related Movies</h3>
+        <div class="grid-x grid-margin-x grid-padding-y related_movies">
+        </div>
+        <div id="pop">
+            <img src="images/popLine.svg" alt="three pieces of cartoon popcorn in a line" id="popLine">
+        </div>
+        <h3>Featuring</h3>
+        <div class="grid-x grid-margin-x grid-padding-y cast">
+        </div>
+
+    </div>
+
+    <!-- **************** Actor Page **************** -->
+    <div class="grid-container actor_container hide_all">
+        <div class="grid-x grid-margin-x grid-padding-y">
+
+            <div class="large-6 cell more-top">
+                <div>
+                    <img src="rectangle-1.jpg" alt="Movie 1" class="main_people_image">
+                    <div class="card-section">
+                    </div>
+                </div>
+            </div>
+
+            <div class="large-6 cell more-top">
+                <div class="bump">
+                    <h1 class="people_name">Movie Name</h1>
+                    <p><b>Birthday: </b><span class="born">2:12</span></p>
+                    <p><b>Death: </b><span class="died" id="Date">Jan 12, 2018</span></p>
+                    <p id="people_biography" class="people_biography description"></p>
+                </div>
+            </div>
+        </div>
+        <div id="pop">
+            <img src="images/popLine.svg" alt="three pieces of cartoon popcorn in a line" id="popLine">
+        </div>
+        <h3>Stars in</h3>
+        <div class="grid-x grid-margin-x grid-padding-y movies actors related_people_movies">
+        </div>
+
+    </div>
+
+    <!-- **************** Footer **************** -->
+    <div class="large-12 small-12 cell" id="Footer">
+        Flick ©
+        
+                <div>
+                    <a href="www.facebook.com"><img src="./images/facebook-square-brands.png" alt="Facebook Logo"
+                        class="social"></a>
+        <a href="www.instagram.com"><img src="./images/instagram-brands.png" alt="Instagram Logo" class="social"></a>
+        <a href="www.twitter.com"><img src="./images/twitter-square-brands.png" alt="Twitter Logo" class="social"></a>
+        <a href="www.youtube.com"><img src="./images/youtube-square-brands.png" alt="Youtube Logo" class="social"></a>
+    </div>
+    </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
